@@ -1,0 +1,41 @@
+.large-hero {
+	position: relative;
+	
+	&__text-content {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		-webkit-transform: translateY(-50%);
+		   -moz-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		     -o-transform: translateY(-50%);
+		        transform: translateY(-50%);
+	}
+}
+
+
+
+.large-hero__title {
+	font-weight: 300;
+	color: #2f5572;
+	font-size: 4.8rem;
+}
+
+/*
+
+B.E.M.
+
+B - Block. Can be reused
+E - element. Not resused. It is unique inside one block.
+M - Modifier
+
+- В БЕМ обращаемся к элементам только по CSS
+- Блоки можно использовать несколько раз на странице
+- Блоки могут быть вложенными друг в друга
+- Определяем патерны / блоки , которые будемнеоднократно использовать в разметке - например сетка и контейнеры колонки в ней 
+- Делает связь межжду HTML и CSS более ясой и понятной
+
+
+*/
