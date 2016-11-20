@@ -1,9 +1,12 @@
+var johnName = "John Doe";
+var johnFavColor = "blue";
+
 
 function person (name, favColor){
 	console.log("Hello, my name is " + name + " John Doe, and my favourite color is " + favColor + ".");
 }
 
-person("John Doe", "blue");
+person(johnName, johnFavColor);
 person("Jane Smith", "green");
 
 /*
