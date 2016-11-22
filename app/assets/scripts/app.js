@@ -1,3 +1,12 @@
+
+import MobileMenu from './modules/MobileMenu';
+
+var mobileMenu = new MobileMenu();
+
+
+
+
+/*
 var $ = require('jquery');
 
 // require is the part of node.js
@@ -18,3 +27,4 @@ john.greet();
 var jane = new Adult("Jane Smith", "orange");
 jane.greet();
 jane.payTaxes();
+*/
